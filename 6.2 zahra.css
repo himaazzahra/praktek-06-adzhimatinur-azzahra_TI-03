@@ -1,0 +1,48 @@
+*{
+  box-sizing: border-box;
+}
+
+body {
+  background-color: beige
+}
+
+.container {
+  width: 900px;
+  display: flex;
+  margin: 0 auto;
+}
+
+.colomn {
+  display: flex;
+  flex-direction: column;
+}
+
+.tengah{
+  display: flex;
+}
+
+nav {
+  background-color: magenta;
+  width: 200px;
+  height: 600px;
+}
+
+article {
+  
+  background-color: orange ;
+  width: 500px;
+  height: 500px;
+}
+
+aside {
+  background-color: blue;
+  width: 200px;
+  height: 500px;
+}
+
+
+header, footer {
+  background-color: cadetblue;
+  width: 700px;
+  height: 50px;
+}
